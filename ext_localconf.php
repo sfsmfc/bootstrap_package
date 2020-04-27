@@ -325,8 +325,8 @@ if (!class_exists(\TYPO3\CMS\Frontend\DataProcessing\LanguageMenuProcessor::clas
         '    direction = ltr',
         '}'
     ]));
-    $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['Core/TypoScript/TemplateService']['runThroughTemplatesPostProcessing'][\BK2K\BootstrapPackage\Hooks\Frontend\TypoScriptLanguageHook::class]
-        = \BK2K\BootstrapPackage\Hooks\Frontend\TypoScriptLanguageHook::class . '->addLanguageSetup';
+    /*$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['Core/TypoScript/TemplateService']['runThroughTemplatesPostProcessing'][\BK2K\BootstrapPackage\Hooks\Frontend\TypoScriptLanguageHook::class]
+        = \BK2K\BootstrapPackage\Hooks\Frontend\TypoScriptLanguageHook::class . '->addLanguageSetup';*/
     // Register formEngine nodes
     $GLOBALS['TYPO3_CONF_VARS']['SYS']['formEngine']['nodeRegistry'][1525380017] = [
         'nodeName' => 'AdditionalFieldInformation',
